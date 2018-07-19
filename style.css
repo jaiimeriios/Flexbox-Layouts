@@ -32,6 +32,7 @@ body {
   flex: 5;
 }
 
+
 /* Main */
 #colum-layout {
   display: flex;
@@ -41,6 +42,12 @@ body {
   padding: 20px 50px;
   background-color: #fff;
   border: solid 2px #ccc;
+}
+
+#colum-layout p {
+  font-size: 1em;
+  line-height: 1.2em;
+  margin:0 0 15px 0;
 }
 
 .sidebar-main {
@@ -57,7 +64,6 @@ body {
   flex: 1;
   order: 3;
 }
-
 
 
 /* Call Outs */
@@ -88,13 +94,6 @@ body {
 .call-out:nth-child(3) { background-color: #ea8282; }
 
 
-
-
-
-
-
-
-
 /* Fixed Sized Content */
 #fixed-size {
   margin: 30px auto;
@@ -118,4 +117,25 @@ body {
   text-align: center;
   font-size: 2em;
   font-weight: bold;
+}
+
+/* Center */
+#banner {
+  margin: 30px auto;
+  width: 96%;
+  min-height: 300px;
+  max-width: 1000px;
+  padding: 20px 50px;
+  background-color: #fff;
+  border: solid 2px #ccc;
+  display: flex;
+}
+
+.center {
+  margin: auto;
+}
+
+.center h5 {
+  margin: 0;
+  font-size: 3em;
 }
