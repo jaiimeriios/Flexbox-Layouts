@@ -162,11 +162,11 @@ body {
   flex-direction: column;
 }
 
-.second-a .center, .second-b h6 {
+.second-a h6, .second-b h6 {
+  text-align: center;
   color: #fff;
-  font-size: 2em;
-  text-shadow: 2px;
-  margin: auto;
+  font-size: 2.2em;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
 }
 
 .second-a {
