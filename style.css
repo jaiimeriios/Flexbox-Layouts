@@ -86,3 +86,36 @@ body {
 .call-out:nth-child(1) { background-color: #8bc6e3; }
 .call-out:nth-child(2) { background-color: #c4ff8c; }
 .call-out:nth-child(3) { background-color: #ea8282; }
+
+
+
+
+
+
+
+
+
+/* Fixed Sized Content */
+#fixed-size {
+  margin: 30px auto;
+  width: 96%;
+  max-width: 1000px;
+  padding: 20px 50px;
+  background-color: #fff;
+  border: solid 2px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fix-size-box {
+  width: 150px;
+  height: 120px;
+  background-color: #990b47;
+  color: #fff;
+  line-height: 110px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
