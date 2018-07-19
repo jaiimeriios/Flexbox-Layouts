@@ -2,10 +2,30 @@ body {
   background-color: #eee;
 }
 
-
-.container{
+/*  Forma */
+#container {
+  margin: 30px auto;
   width: 90%;
   max-width: 1000px;
   background-color: #fff;
   border: solid 2px #ccc;
 }
+
+#forma {
+  padding: 10px;
+}
+
+.form-row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.form-row label {
+  padding: 0 5px;
+}
+
+.form-row input {
+  flex: 1
+}
+
+/* Main */
