@@ -1,5 +1,4 @@
 /* Flexbox  Layouts Styles */
-
 body {
   font-family: sans-serif;
   background-color: #eee;
@@ -146,6 +145,7 @@ body {
 /* Equal Heights */
 #equal-height {
   margin: 30px auto;
+  max-width: 1000px;
   width: 96%;
   padding: 20px 50px;
   background-color: #fff;
