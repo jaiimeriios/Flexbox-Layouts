@@ -62,11 +62,27 @@ body {
 
 /* Call Outs */
 #call-outs {
-  display: flex;
   margin: 30px auto;
   width: 96%;
-  max-width: 1000px;
-  padding: 20px 50px;
+  max-width: 1100px;
   background-color: #fff;
   border: solid 2px #ccc;
 }
+
+@media (min-width: 700px) {
+  #call-outs {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}
+
+.call-out {
+  padding: 20px;
+  box-sizing: border-box; /* this is for the spacing to work */
+  flex-basis: 32%; /* flex-basis is usedinstead of width */
+}
+
+.call-out:nth-child(1) { background-color: #8bc6e3; }
+.call-out:nth-child(2) { background-color: #c4ff8c; }
+.call-out:nth-child(3) { background-color: #ea8282; }
