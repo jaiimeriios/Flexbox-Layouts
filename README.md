@@ -1,3 +1,3 @@
 # Flexbox Layouts
 
--Author Jaime
+- Author: Jaime Alejandro Rios [jaiimeriios.com](http://jaiimeriios.com/)
